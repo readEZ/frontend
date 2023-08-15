@@ -1,6 +1,6 @@
 // routeConfig.js
 
-import Login from "../pages/auth/Login";
+import { LoginPage, RegisterPage } from "../pages/auth";
 import { WorskspaceReadPage } from "../pages/private";
 import PublicHomePage from "../pages/public/Home";
 
@@ -13,7 +13,12 @@ export const routes = [
     },
     {
         path: '/login',
-        component: Login,
+        component: LoginPage,
+        private: false,
+    },
+    {
+        path: '/register',
+        component: RegisterPage,
         private: false,
     },
     {
