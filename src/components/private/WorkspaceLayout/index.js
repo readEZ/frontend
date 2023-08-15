@@ -28,8 +28,7 @@ const items2 = [UserOutlined, LaptopOutlined, NotificationOutlined].map((icon, i
   };
 });
 
-const App = () => {
-
+const WorkspaceLayout = () => {
   return (
     <Layout style={{
       minHeight: '100vh',
@@ -45,4 +44,4 @@ const App = () => {
     </Layout>
   );
 };
-export default App;
+export default WorkspaceLayout;
